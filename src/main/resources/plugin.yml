@@ -1,0 +1,11 @@
+## YAML Template.
+name: TestBukkitPlugin
+version: 0.1
+main: com.gmail.zhua2005.minecraft.TestBukkitPlugin
+
+commands:
+   basic:
+      description: This is a demo command.
+      usage: /<command> [player]
+      permission: <plugin name>.basic
+      permission-message: You don't have <permission>
